@@ -1,3 +1,4 @@
+require "./mirr/comm"
 require "./mirr/ubuntu"
 
 module Mirr
@@ -23,7 +24,7 @@ module Mirr
         url = ARGV[1]?
         if url
           4.times do
-            time = Mirr::Ubuntu.tcping(url)
+            time = Mirr::Comm.tcping(url)
             puts sprintf("%7.3fms - %s", time, url)
           end
         else
