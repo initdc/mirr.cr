@@ -1,5 +1,6 @@
 require "./mirr/comm"
 require "./mirr/ubuntu"
+require "./mirr/debian"
 
 module Mirr
   VERSION = "0.1.0"
@@ -12,6 +13,7 @@ module Mirr
       version                  Show version
       tcping <url>             tcping url
       ubuntu                   Ubuntu mirrors
+      debian                   Debian mirrors
     HELP
 
     def self.run
@@ -32,6 +34,8 @@ module Mirr
         end
       when "ubuntu"
         Mirr::Ubuntu::Cli.run
+      when "debian"
+        Mirr::Debian::Cli.run
       else
         puts "Unknown command"
         puts @@main_help
