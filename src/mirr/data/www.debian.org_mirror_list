@@ -1,0 +1,2601 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Debian -- Debian Mirrors (worldwide) </title>
+  <link rel="author" href="mailto:webmaster@debian.org">
+  <meta name="Generator" content="WML 2.32.0">
+  <meta name="Modified" content="2025-12-13 11:28:26">
+  <meta name="viewport" content="width=device-width">
+  <meta name="mobileoptimized" content="300">
+  <meta name="HandheldFriendly" content="true">
+<link href="../debhome.css" rel="stylesheet" type="text/css">
+   <link href="../startpage.css" rel="stylesheet" type="text/css">
+   <link href="../5img-carousel-slider.css" rel="stylesheet" type="text/css">
+  <link href="../debian-en.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="Keywords" content="debian, GNU, linux, unix, open source, free, DFSG">
+<link rel="search" type="application/opensearchdescription+xml" title="Debian website search" href="../search.en.xml">
+</head>
+<body>
+<div id="header">
+  <div id="upperheader">
+    <div id="logo">
+    <a href="../" title="Debian Home"><img src="../Pics/openlogo-50.png" alt="Debian" width="50" height="61"></a>
+    </div> <!-- end logo -->
+    <div id="searchbox">
+      <form name="p" method="get" action="https://search.debian.org/cgi-bin/omega">
+      <p>
+<input type="hidden" name="DB" value="en">
+        <input name="P" value="" size="14">
+        <input type="submit" value="Search">
+      </p>
+      </form>
+    </div>   <!-- end sitetools -->
+  </div> <!-- end upperheader -->
+  <!--UdmComment-->
+  <div id="navbar">
+    <p class="hidecss"><a href="#content">Skip Quicknav</a></p>
+    <ul>
+      <!-- Link to Debian's own Social Media resources -->
+      <li><a href="https://bits.debian.org/" title="Bits from Debian">Blog</a></li>
+      <li><a href="https://micronews.debian.org" title="Micronews from Debian">Micronews</a></li>
+      <li><a href="https://planet.debian.org/" title="The Planet of Debian">Planet</a></li>
+      <li><a href="https://wiki.debian.org/" title="The Debian Wiki">Wiki</a></li>
+    </ul>
+  </div> <!-- end navbar -->
+  <p id="breadcrumbs">&nbsp; </p>
+</div> <!-- end header -->
+<!--/UdmComment-->
+<div id="content">
+<h1>Debian Mirrors (worldwide)</h1>
+<link href="../font-awesome.css" rel="stylesheet" type="text/css">
+<ul class="toc">
+  <li><a href="#per-country">Debian Mirrors per Country</a></li>
+  <li><a href="#complete-list">Complete List of Mirrors</a></li>
+</ul>
+<aside>
+<p><span class="fas fa-caret-right fa-3x"></span> Debian is distributed (<a href="https://www.debian.org/mirror/">mirrored</a>) on hundreds of servers. If you're planning to <a href="../download">download</a> Debian, try a server nearby first. This will probably be faster and also reduce the load on our central servers.</p>
+</aside>
+<p class="centerblock">
+  Debian mirrors exist in many countries, and for some of them we have
+  added a <code>ftp.&lt;country&gt;.debian.org</code> alias. This
+  alias usually points to a mirror that syncs regularly and quickly
+  and carries all of Debian's architectures. The Debian archive
+  is always available via HTTP at the <code>/debian</code>
+  location on the server.
+</p>
+<p class="centerblock">
+  Other mirror sites may have restrictions on what
+  they mirror (due to space restrictions). Just because a site is not the
+  country's <code>ftp.&lt;country&gt;.debian.org</code>, does not necessarily
+  mean that it is any slower or less up-to-date than the
+  <code>ftp.&lt;country&gt;.debian.org</code> mirror.
+  In fact, a mirror that carries your architecture and is closer to you as the
+  user and, therefore, faster, is almost always preferable to other mirrors
+  that are farther away.
+</p>
+<p>Use the site closest to you for the fastest downloads possible—
+whether it is a per-country mirror alias or not.
+The program
+<a href="https://packages.debian.org/stable/net/netselect-apt"><code>netselect-apt</code></a> can be used to
+determine the site with the least latency; use a download program such as
+<a href="https://packages.debian.org/stable/web/wget"><code>wget</code></a> or
+<a href="https://packages.debian.org/stable/net/rsync"><code>rsync</code></a> for determining the site with the most throughput.
+Note that geographic proximity often isn't the most important factor for
+determining which machine will serve you best.</p>
+<p>
+If your system moves around a lot, you may be best served by a "mirror"
+that is backed by a global <abbr title="Content Delivery Network">CDN</abbr>.
+The Debian project maintains
+<code>deb.debian.org</code> for this
+purpose, and you can use this in your <code>sources.list</code>—consult
+the service's <a href="http://deb.debian.org/">website</a> for details.
+<ul>
+<li><a href="https://mirror-master.debian.org/status/mirror-status.html">Status of Debian mirrors</a></li>
+</ul>
+<h2 id="per-country">Debian Mirrors per Country</h2>
+<table border="0" class="center" summary="">
+<tr>
+  <th>Country</th>
+  <th>Site</th>
+  <th>Architectures</th>
+</tr>
+<tr>
+  <td>Australia</td>
+  <td><a rel="nofollow" href="http://ftp.au.debian.org/debian/">ftp.au.debian.org/debian/</a></td>
+  <td><small><small>amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Austria</td>
+  <td><a rel="nofollow" href="http://ftp.at.debian.org/debian/">ftp.at.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Belgium</td>
+  <td><a rel="nofollow" href="http://ftp.be.debian.org/debian/">ftp.be.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Brazil</td>
+  <td><a rel="nofollow" href="http://ftp.br.debian.org/debian/">ftp.br.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x sparc</small></small></td>
+</tr>
+<tr>
+  <td>Bulgaria</td>
+  <td><a rel="nofollow" href="http://ftp.bg.debian.org/debian/">ftp.bg.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Canada</td>
+  <td><a rel="nofollow" href="http://ftp.ca.debian.org/debian/">ftp.ca.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Chile</td>
+  <td><a rel="nofollow" href="http://ftp.cl.debian.org/debian/">ftp.cl.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>China</td>
+  <td><a rel="nofollow" href="http://ftp.cn.debian.org/debian/">ftp.cn.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Croatia</td>
+  <td><a rel="nofollow" href="http://ftp.hr.debian.org/debian/">ftp.hr.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Czech Republic</td>
+  <td><a rel="nofollow" href="http://ftp.cz.debian.org/debian/">ftp.cz.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Denmark</td>
+  <td><a rel="nofollow" href="http://ftp.dk.debian.org/debian/">ftp.dk.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Finland</td>
+  <td><a rel="nofollow" href="http://ftp.fi.debian.org/debian/">ftp.fi.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>France</td>
+  <td><a rel="nofollow" href="http://ftp.fr.debian.org/debian/">ftp.fr.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Germany</td>
+  <td><a rel="nofollow" href="http://ftp2.de.debian.org/debian/">ftp2.de.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Germany</td>
+  <td><a rel="nofollow" href="http://ftp.de.debian.org/debian/">ftp.de.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Hong Kong</td>
+  <td><a rel="nofollow" href="http://ftp.hk.debian.org/debian/">ftp.hk.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Iceland</td>
+  <td><a rel="nofollow" href="http://ftp.is.debian.org/debian/">ftp.is.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Italy</td>
+  <td><a rel="nofollow" href="http://ftp.it.debian.org/debian/">ftp.it.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Japan</td>
+  <td><a rel="nofollow" href="http://ftp.jp.debian.org/debian/">ftp.jp.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x</small></small></td>
+</tr>
+<tr>
+  <td>Lithuania</td>
+  <td><a rel="nofollow" href="http://ftp.lt.debian.org/debian/">ftp.lt.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Netherlands</td>
+  <td><a rel="nofollow" href="http://ftp.nl.debian.org/debian/">ftp.nl.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>New Caledonia</td>
+  <td><a rel="nofollow" href="http://ftp.nc.debian.org/debian/">ftp.nc.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>New Zealand</td>
+  <td><a rel="nofollow" href="http://ftp.nz.debian.org/debian/">ftp.nz.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Norway</td>
+  <td><a rel="nofollow" href="http://ftp.no.debian.org/debian/">ftp.no.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Poland</td>
+  <td><a rel="nofollow" href="http://ftp.pl.debian.org/debian/">ftp.pl.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Portugal</td>
+  <td><a rel="nofollow" href="http://ftp.pt.debian.org/debian/">ftp.pt.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Russia</td>
+  <td><a rel="nofollow" href="http://ftp.ru.debian.org/debian/">ftp.ru.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Slovakia</td>
+  <td><a rel="nofollow" href="http://ftp.sk.debian.org/debian/">ftp.sk.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Slovenia</td>
+  <td><a rel="nofollow" href="http://ftp.si.debian.org/debian/">ftp.si.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Spain</td>
+  <td><a rel="nofollow" href="http://ftp.es.debian.org/debian/">ftp.es.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mipsel riscv64</small></small></td>
+</tr>
+<tr>
+  <td>Sweden</td>
+  <td><a rel="nofollow" href="http://ftp.se.debian.org/debian/">ftp.se.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Switzerland</td>
+  <td><a rel="nofollow" href="http://ftp.ch.debian.org/debian/">ftp.ch.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>Taiwan</td>
+  <td><a rel="nofollow" href="http://ftp.tw.debian.org/debian/">ftp.tw.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>United Kingdom</td>
+  <td><a rel="nofollow" href="http://ftp.uk.debian.org/debian/">ftp.uk.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+<tr>
+  <td>United States</td>
+  <td><a rel="nofollow" href="http://ftp.us.debian.org/debian/">ftp.us.debian.org/debian/</a></td>
+  <td><small><small>amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</small></small></td>
+</tr>
+</table>
+<h2 id="complete-list">Complete List of Mirrors</h2>
+<table border="0" class="center" summary="">
+<tr>
+  <th>Host name</th>
+  <th>HTTP</th>
+  <th>Architectures</th>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Argentina</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.unnoba.edu.ar
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.unnoba.edu.ar/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.sitsa.com.ar
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.sitsa.com.ar/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Australia</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.au.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.au.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.aarnet.edu.au
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.aarnet.edu.au/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.amaze.com.au
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.amaze.com.au/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.gsl.icu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.gsl.icu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.linux.org.au
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.linux.org.au/debian/">/debian/</a></td>
+  <td valign="top">amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.overthewire.com.au
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.overthewire.com.au/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.realcompute.io
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.realcompute.io/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Austria</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.at.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.at.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.anexia.at
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.anexia.at/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.lagis.at
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.lagis.at/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mur.at
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mur.at/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">debian.sil.at
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.sil.at/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.alwyzon.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.alwyzon.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Azerbaijan</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.ourhost.az
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.ourhost.az/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Bangladesh</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.limda.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.limda.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.xeonbd.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.xeonbd.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Belarus</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.datacenter.by
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.datacenter.by/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Belgium</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.be.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.be.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian-mirror.behostings.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian-mirror.behostings.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.belnet.be
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.belnet.be/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 i386 mips64el ppc64el riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.as35701.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.as35701.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.unix-solutions.be
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.unix-solutions.be/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Brazil</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.br.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.br.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x sparc</td>
+</tr>
+<tr>
+  <td valign="top">debian.c3sl.ufpr.br
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.c3sl.ufpr.br/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x sparc</td>
+</tr>
+<tr>
+  <td valign="top">debian.pop-sc.rnp.br
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.pop-sc.rnp.br/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.blue3.com.br
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.blue3.com.br/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.ic.unicamp.br
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.ic.unicamp.br/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.uepg.br
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.uepg.br/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.ufscar.br
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.ufscar.br/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Bulgaria</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.bg.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.bg.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.a1.bg
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.a1.bg/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.ipacct.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.ipacct.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.ludost.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.ludost.net/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">debian.mnet.bg
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mnet.bg/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 i386 mips64el</td>
+</tr>
+<tr>
+  <td valign="top">debian.telecoms.bg
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.telecoms.bg/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.uni-sofia.bg
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.uni-sofia.bg/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.netix.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.netix.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.telepoint.bg
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.telepoint.bg/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Burkina Faso</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.ipsys.bf
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.ipsys.bf/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Canada</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.ca.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.ca.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.linux.n0c.ca
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.linux.n0c.ca/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.globo.tech
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.globo.tech/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.rafal.ca
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.rafal.ca/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.cpsc.ucalgary.ca
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.cpsc.ucalgary.ca/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.csclub.uwaterloo.ca
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.csclub.uwaterloo.ca/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.dst.ca
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.dst.ca/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.estone.ca
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.estone.ca/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.it.ubc.ca
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.it.ubc.ca/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Chile</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.cl.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.cl.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian-mirror.puq.apoapsis.cl
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian-mirror.puq.apoapsis.cl/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.hnd.cl
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.hnd.cl/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.insacom.cl
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.insacom.cl/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>China</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.cn.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.cn.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.lzu.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.lzu.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.nju.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.nju.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.nyist.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.nyist.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.bfsu.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.bfsu.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.hit.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.hit.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.jlu.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.jlu.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.sjtu.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.sjtu.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.tuna.tsinghua.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.tuna.tsinghua.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.ustc.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.ustc.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.zju.edu.cn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.zju.edu.cn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 riscv64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Costa Rica</strong></big></td></tr>
+<tr>
+  <td valign="top">mirrors.ucr.ac.cr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.ucr.ac.cr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Croatia</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.hr.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.hr.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.carnet.hr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.carnet.hr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.iskon.hr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.iskon.hr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Czech Republic</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.cz.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.cz.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.web4u.cz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.web4u.cz/">/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.nic.cz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.nic.cz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.superhosting.cz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.superhosting.cz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.cvut.cz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.cvut.cz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386 mips64el ppc64el riscv64</td>
+</tr>
+<tr>
+  <td valign="top">ftp.debian.cz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.debian.cz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.sh.cvut.cz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.sh.cvut.cz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.zcu.cz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.zcu.cz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386 mips64el riscv64</td>
+</tr>
+<tr>
+  <td valign="top">merlin.fit.vutbr.cz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://merlin.fit.vutbr.cz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.dkm.cz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.dkm.cz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Denmark</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.dk.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.dk.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.dotsrc.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.dotsrc.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.rackhosting.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.rackhosting.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 armhf i386 ia64 kfreebsd-amd64 kfreebsd-i386 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Estonia</strong></big></td></tr>
+<tr>
+  <td valign="top">mirrors.xtom.ee
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.xtom.ee/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Finland</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.fi.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.fi.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.web.trex.fi
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.web.trex.fi/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.5i.fi
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.5i.fi/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">www.nic.funet.fi
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://www.nic.funet.fi/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>France</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.fr.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.fr.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">apt.tetaneutral.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://apt.tetaneutral.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">debian.apt-mirror.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.apt-mirror.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 armhf i386</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirrors.ovh.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirrors.ovh.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.obspm.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.obspm.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.polytech-lille.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.polytech-lille.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 i386 mips64el ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.proxad.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.proxad.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.univ-tlse2.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.univ-tlse2.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">deb-mir1.naitways.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://deb-mir1.naitways.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.ec-m.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.ec-m.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.lip6.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.lip6.fr/pub/linux/distributions/debian/">/pub/linux/distributions/debian/</a></td>
+  <td valign="top">amd64 armel armhf i386 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.rezopole.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.rezopole.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.univ-pau.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.univ-pau.fr/linux/mirrors/debian/">/linux/mirrors/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386 mips64el ppc64el riscv64</td>
+</tr>
+<tr>
+  <td valign="top">ftp.u-picardie.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.u-picardie.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.u-strasbg.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.u-strasbg.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">miroir.univ-lorraine.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://miroir.univ-lorraine.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.abaclouda.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.abaclouda.net/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.debian.ikoula.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.debian.ikoula.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.gitoyen.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.gitoyen.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.ibcp.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.ibcp.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.johnnybegood.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.johnnybegood.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.plusserver.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.plusserver.com/debian/debian/">/debian/debian/</a></td>
+  <td valign="top">amd64 armel armhf i386 mips mipsel s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Georgia</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.grena.ge
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.grena.ge/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 riscv64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Germany</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp2.de.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp2.de.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.de.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.de.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.charite.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.charite.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">debian.inf.tu-dresden.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.inf.tu-dresden.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.intergenia.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.intergenia.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.iphh.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.iphh.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.lrz.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.lrz.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.netcologne.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.netcologne.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.tu-bs.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.tu-bs.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">de.mirrors.clouvider.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://de.mirrors.clouvider.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.fau.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.fau.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.gwdg.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.gwdg.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.halifax.rwth-aachen.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.halifax.rwth-aachen.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.hosteurope.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.hosteurope.de/mirror/ftp.debian.org/debian/">/mirror/ftp.debian.org/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp-stud.hs-esslingen.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp-stud.hs-esslingen.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.stw-bonn.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.stw-bonn.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.tu-chemnitz.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.tu-chemnitz.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.uni-hannover.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.uni-hannover.de/debian/debian/">/debian/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.uni-kl.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.uni-kl.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">ftp.uni-mainz.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.uni-mainz.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.uni-stuttgart.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.uni-stuttgart.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.wrz.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.wrz.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.23m.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.23m.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.creoline.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.creoline.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.de.leaseweb.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.de.leaseweb.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel powerpc ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.dogado.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.dogado.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.eu.oneandone.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.eu.oneandone.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.informatik.tu-freiberg.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.informatik.tu-freiberg.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386 mips64el ppc64el riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.ipb.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.ipb.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.netzwerge.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.netzwerge.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.plusline.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.plusline.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.xtom.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.xtom.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.united-gameserver.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.united-gameserver.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.wtnet.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.wtnet.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">packages.hs-regensburg.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://packages.hs-regensburg.de/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">pubmirror.plutex.de
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://pubmirror.plutex.de/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Greece</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.otenet.gr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.otenet.gr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Hong Kong</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.hk.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.hk.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.xtom.com.hk
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.xtom.com.hk/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Hungary</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.bme.hu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.bme.hu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">repo.jztkft.hu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://repo.jztkft.hu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Iceland</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.is.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.is.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>India</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.nitc.ac.in
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.nitc.ac.in/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Indonesia</strong></big></td></tr>
+<tr>
+  <td valign="top">kartolo.sby.datautama.net.id
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://kartolo.sby.datautama.net.id/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el</td>
+</tr>
+<tr>
+  <td valign="top">kebo.pens.ac.id
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://kebo.pens.ac.id/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.unair.ac.id
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.unair.ac.id/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mr.heru.id
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mr.heru.id/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Iran</strong></big></td></tr>
+<tr>
+  <td valign="top">archive.debian.petiak.ir
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://archive.debian.petiak.ir/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.aminidc.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.aminidc.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.pardisco.co
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.pardisco.co/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">repo.mirror.famaserver.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://repo.mirror.famaserver.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Israel</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.interhost.co.il
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.interhost.co.il/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 i386 mips64el riscv64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Italy</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.it.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.it.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.connesi.it
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.connesi.it/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">debian.dynamica.it
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.dynamica.it/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.garr.it
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.garr.it/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.linux.it
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.linux.it/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">giano.com.dist.unige.it
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://giano.com.dist.unige.it/debian/">/debian/</a></td>
+  <td valign="top">amd64 armel armhf i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.units.it
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.units.it/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Japan</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.jp.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.jp.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian-mirror.sakura.ne.jp
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian-mirror.sakura.ne.jp/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">dennou-k.gfd-dennou.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://dennou-k.gfd-dennou.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.jaist.ac.jp
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.jaist.ac.jp/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.nara.wide.ad.jp
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.nara.wide.ad.jp/debian/">/debian/</a></td>
+  <td valign="top">amd64 armel i386 mips mipsel</td>
+</tr>
+<tr>
+  <td valign="top">ftp.riken.jp
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.riken.jp/Linux/debian/debian/">/Linux/debian/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.yz.yamagata-u.ac.jp
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.yz.yamagata-u.ac.jp/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.xtom.jp
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.xtom.jp/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Kazakhstan</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.hoster.kz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.hoster.kz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.ps.kz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.ps.kz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Kenya</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.mirror.ac.ke
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.ac.ke/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.liquidtelecom.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.liquidtelecom.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Korea</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.lanet.kr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.lanet.kr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.keiminem.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.keiminem.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.pangkin.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.pangkin.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.siwoo.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.siwoo.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.yuki.net.uk
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.yuki.net.uk/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Latvia</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.koyanet.lv
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.koyanet.lv/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.cloudhosting.lv
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.cloudhosting.lv/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.veesp.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.veesp.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Lithuania</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.lt.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.lt.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.balt.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.balt.net/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.vu.lt
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.vu.lt/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.litnet.lt
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.litnet.lt/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Luxembourg</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.mirror.root.lu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.root.lu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Macedonia, Republic of</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.a1.mk
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.a1.mk/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror-mk.interspace.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror-mk.interspace.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Mexico</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.vranetworks.lat
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.vranetworks.lat/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386 ppc64el riscv64</td>
+</tr>
+<tr>
+  <td valign="top">lidsol.fi-b.unam.mx
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://lidsol.fi-b.unam.mx/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Morocco</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.marwan.ma
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.marwan.ma/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Nepal</strong></big></td></tr>
+<tr>
+  <td valign="top">mirrors.nepalicloud.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.nepalicloud.com/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Netherlands</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.nl.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.nl.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.snt.utwente.nl
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.snt.utwente.nl/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.ams.macarne.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.ams.macarne.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.bgp.rodeo
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.bgp.rodeo/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.duocast.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.duocast.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.nforce.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.nforce.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.nl.cdn-perfprod.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.nl.cdn-perfprod.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.nl.datapacket.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.nl.datapacket.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.nl.leaseweb.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.nl.leaseweb.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel powerpc ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.hostiserver.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.hostiserver.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.xtom.nl
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.xtom.nl/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.tngnet.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.tngnet.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.vpgrp.io
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.vpgrp.io/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">nl.mirror.flokinet.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://nl.mirror.flokinet.net/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">nl.mirrors.clouvider.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://nl.mirrors.clouvider.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>New Caledonia</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.nc.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.nc.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.nautile.nc
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.nautile.nc/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.lagoon.nc
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.lagoon.nc/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>New Zealand</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.nz.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.nz.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.fsmg.org.nz
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.fsmg.org.nz/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Norway</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.no.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.no.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.uio.no
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.uio.no/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Poland</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.pl.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.pl.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.agh.edu.pl
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.agh.edu.pl/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">ftp.icm.edu.pl
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.icm.edu.pl/pub/Linux/debian/">/pub/Linux/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.psnc.pl
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.psnc.pl/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.task.gda.pl
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.task.gda.pl/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Portugal</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.pt.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.pt.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.uevora.pt
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.uevora.pt/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.eq.uc.pt
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.eq.uc.pt/software/Linux/debian/">/software/Linux/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.rnl.tecnico.ulisboa.pt
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.rnl.tecnico.ulisboa.pt/pub/debian/">/pub/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.up.pt
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.up.pt/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Puerto Rico</strong></big></td></tr>
+<tr>
+  <td valign="top">mirrors.upr.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.upr.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Réunion</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.mithril.re
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mithril.re/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">depot-debian.univ-reunion.fr
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://depot-debian.univ-reunion.fr/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Romania</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.flo.c-f.ro
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.flo.c-f.ro/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.linux.ro
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.linux.ro/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.hosterion.ro
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.hosterion.ro/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.hostico.ro
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.hostico.ro/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.nav.ro
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.nav.ro/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.nxthost.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.nxthost.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.pidginhost.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.pidginhost.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">ro.mirror.flokinet.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ro.mirror.flokinet.net/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Russia</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.ru.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.ru.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.psn.ru
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.psn.ru/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.corbina.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.corbina.net/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.docker.ru
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.docker.ru/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.hyperdedic.ru
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.hyperdedic.ru/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.mephi.ru
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.mephi.ru/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.neftm.ru
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.neftm.ru/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.powernet.com.ru
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.powernet.com.ru/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.truenetwork.ru
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.truenetwork.ru/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">repository.su
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://repository.su/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Saudi Arabia</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.maeen.sa
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.maeen.sa/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Serbia</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.pmf.kg.ac.rs
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.pmf.kg.ac.rs/debian/">/debian/</a></td>
+  <td valign="top">amd64 armhf i386 kfreebsd-amd64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Singapore</strong></big></td></tr>
+<tr>
+  <td valign="top">mirror.coganng.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.coganng.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.djvg.sg
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.djvg.sg/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.sg.gs
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.sg.gs/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Slovakia</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.sk.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.sk.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">deb.bbxnet.sk
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://deb.bbxnet.sk/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.antik.sk
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.antik.sk/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.debian.sk
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.debian.sk/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Slovenia</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.si.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.si.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>South Africa</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.envisagecloud.net.za
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.envisagecloud.net.za/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.saix.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.saix.net/">/</a></td>
+  <td valign="top">amd64 armel armhf i386 mips mipsel s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.is.co.za
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.is.co.za/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Spain</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.es.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.es.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mipsel riscv64</td>
+</tr>
+<tr>
+  <td valign="top">debian.grn.cat
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.grn.cat/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">debian.redimadrid.es
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.redimadrid.es/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.redparra.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.redparra.com/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">ftp.cica.es
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.cica.es/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">ftp.udc.es
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.udc.es/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.raiolanetworks.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.raiolanetworks.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">repo.ifca.es
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://repo.ifca.es/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mipsel riscv64</td>
+</tr>
+<tr>
+  <td valign="top">softlibre.unizar.es
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://softlibre.unizar.es/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ulises.hostalia.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ulises.hostalia.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mipsel riscv64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Sweden</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.se.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.se.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.lth.se
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.lth.se/debian/">/debian/</a></td>
+  <td valign="top">amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.acc.umu.se
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.acc.umu.se/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.ludd.ltu.se
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.ludd.ltu.se/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftpmirror1.infania.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftpmirror1.infania.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.braindrainlan.nu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.braindrainlan.nu/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.glesys.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.glesys.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Switzerland</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.ch.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.ch.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.ethz.ch
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.ethz.ch/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">deb.nextgen.ch
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://deb.nextgen.ch/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">linuxsoft.cern.ch
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://linuxsoft.cern.ch/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror1.infomaniak.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror1.infomaniak.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror2.infomaniak.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror2.infomaniak.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.init7.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.init7.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.iway.ch
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.iway.ch/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.metanet.ch
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.metanet.ch/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.sinavps.ch
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.sinavps.ch/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">pkg.adfinis-on-exoscale.ch
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://pkg.adfinis-on-exoscale.ch/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Taiwan</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.tw.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.tw.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.ccns.ncku.edu.tw
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.ccns.ncku.edu.tw/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.csie.ntu.edu.tw
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.csie.ntu.edu.tw/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.cs.nycu.edu.tw
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.cs.nycu.edu.tw/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.tku.edu.tw
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.tku.edu.tw/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.twds.com.tw
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.twds.com.tw/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">opensource.nchc.org.tw
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://opensource.nchc.org.tw/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">tw1.mirror.blendbyte.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://tw1.mirror.blendbyte.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Thailand</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.debianclub.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.debianclub.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.applebred.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.applebred.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.kku.ac.th
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.kku.ac.th/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Ukraine</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.netforce.hosting
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.netforce.hosting/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">debian.volia.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.volia.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.mirohost.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.mirohost.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.ukrnames.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.ukrnames.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>United Kingdom</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.uk.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.uk.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirrors.uk2.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirrors.uk2.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386 ia64 mips64el ppc64el</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.uk.sargasso.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.uk.sargasso.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">free.hands.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://free.hands.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ftp.ticklers.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.ticklers.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.cov.ukservers.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.cov.ukservers.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.lchost.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.lchost.net/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.mythic-beasts.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.mythic-beasts.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.ox.ac.uk
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.ox.ac.uk/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.positive-internet.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.positive-internet.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 armhf i386 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.coreix.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.coreix.net/debian/">/debian/</a></td>
+  <td valign="top">amd64</td>
+</tr>
+<tr>
+  <td valign="top">mirrorservice.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrorservice.org/sites/ftp.debian.org/debian/">/sites/ftp.debian.org/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.vinehost.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.vinehost.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">ukdebian.mirror.anlx.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ukdebian.mirror.anlx.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x</td>
+</tr>
+<tr>
+  <td valign="top">uk.mirrors.clouvider.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://uk.mirrors.clouvider.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>United States</strong></big></td></tr>
+<tr>
+  <td valign="top">ftp.us.debian.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://ftp.us.debian.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">atl.mirrors.clouvider.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://atl.mirrors.clouvider.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian-archive.trafficmanager.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian-archive.trafficmanager.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">debian.cc.lehigh.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.cc.lehigh.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.csail.mit.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.csail.mit.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.mirror.constant.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.mirror.constant.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.osuosl.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.osuosl.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">debian.uchicago.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.uchicago.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">la.mirrors.clouvider.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://la.mirrors.clouvider.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">lethe.chinstrap.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://lethe.chinstrap.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirror.0x626b.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.0x626b.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 i386 riscv64</td>
+</tr>
+<tr>
+  <td valign="top">mirror.keystealth.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.keystealth.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.accretive-networks.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.accretive-networks.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.bloomu.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.bloomu.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.siena.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.siena.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.iu13.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.iu13.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armhf i386</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.lug.mtu.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.lug.mtu.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.ocf.berkeley.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.ocf.berkeley.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.vcea.wsu.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.vcea.wsu.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 i386</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.wikimedia.org
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.wikimedia.org/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirrors.xtom.com
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirrors.xtom.com/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.us.leaseweb.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.us.leaseweb.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips mips64el mipsel powerpc ppc64el s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.us.mirhosting.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.us.mirhosting.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.us.oneandone.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.us.oneandone.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">nyc.mirrors.clouvider.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://nyc.mirrors.clouvider.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">repo.ialab.dsu.edu
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://repo.ialab.dsu.edu/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mipsel ppc64el s390x</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Uruguay</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.repo.cure.edu.uy
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.repo.cure.edu.uy/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel riscv64</td>
+</tr>
+<tr><td colspan="4"><hr style="height:1"></td></tr>
+<tr><td colspan="4"><big><strong>Vietnam</strong></big></td></tr>
+<tr>
+  <td valign="top">debian.xtdv.net
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://debian.xtdv.net/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+<tr>
+  <td valign="top">mirror.bizflycloud.vn
+  </td>
+  <td valign="top"><a rel="nofollow" href="http://mirror.bizflycloud.vn/debian/">/debian/</a></td>
+  <td valign="top">amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x</td>
+</tr>
+</table>
+<hr>
+<table border="0" width="100%" summary=""><tr>
+  <td align="left"><small>Last modified: Sat Dec 13 11:08:46 2025</small></td>
+  <td align="right"><small>Number of sites listed: 368</small></td>
+</tr></table>
+<div class="clr"></div>
+</div> <!-- end content -->
+<div id="footer">
+<hr class="hidecss">
+<p>Back to the <a href="../">Debian Project homepage</a>.</p>
+<hr>
+<!--UdmComment-->
+<div id="pageLang">
+<div id="langSelector">
+This page is also available in the following languages:
+<div id="langContainer">
+<select onchange="location = this.value;">
+<option value="" disabled selected>Select your language</option>
+ <option value="list.da.html" title="Danish" lang="da">dansk</option>
+ <option value="list.es.html" title="Spanish" lang="es">espa&ntilde;ol</option>
+ <option value="list.fr.html" title="French" lang="fr">fran&ccedil;ais</option>
+ <option value="list.gl.html" title="Galician" lang="gl">Galego</option>
+ <option value="list.id.html" title="Indonesian" lang="id">Indonesia</option>
+ <option value="list.it.html" title="Italian" lang="it">Italiano</option>
+ <option value="list.nl.html" title="Dutch" lang="nl">Nederlands</option>
+ <option value="list.pl.html" title="Polish" lang="pl">polski</option>
+ <option value="list.pt.html" title="Portuguese" lang="pt">Portugu&ecirc;s</option>
+ <option value="list.sk.html" title="Slovak" lang="sk">slovenčina</option>
+ <option value="list.fi.html" title="Finnish" lang="fi">suomi</option>
+ <option value="list.sv.html" title="Swedish" lang="sv">svenska</option>
+ <option value="list.vi.html" title="Vietnamese" lang="vi">Ti&#7871;ng Vi&#7879;t</option>
+ <option value="list.bg.html" title="Bulgarian" lang="bg">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; (B&#601;lgarski)</option>
+ <option value="list.ru.html" title="Russian" lang="ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russkij)</option>
+ <option value="list.zh-cn.html" title="Chinese (China)" lang="zh-CN">&#20013;&#25991;(&#31616;)</option>
+ <option value="list.zh-hk.html" title="Chinese (Hong Kong)" lang="zh-HK">&#20013;&#25991;(HK)</option>
+ <option value="list.zh-tw.html" title="Chinese (Taiwan)" lang="zh-TW">&#20013;&#25991;(&#32321;)</option>
+ <option value="list.ja.html" title="Japanese" lang="ja">&#26085;&#26412;&#35486; (Nihongo)</option>
+ <option value="list.cs.html" title="Czech" lang="cs">&#269;esky</option>
+ <option value="list.ko.html" title="Korean" lang="ko">&#54620;&#44397;&#50612; (Korean)</option>
+</select>
+</div>
+How to set <a href="../intro/cn">the default document language</a>
+</div></div><!--/UdmComment-->
+<hr>
+<div id="fineprint">
+<!--UdmComment-->
+  <p>See our <a href="../contact">contact page</a> to get in touch. Web site source code is <a href="https://salsa.debian.org/webmaster-team/webwml">available</a>.</p>
+<p>
+Last Modified: Wed, Oct 29 19:24:15 UTC 2025
+&emsp;
+Last Built: Sat, Dec 13 11:28:27 UTC 2025
+  <br>
+  Copyright &copy; 1997-2025 <a href="https://www.spi-inc.org/">SPI</a> and others; See <a href="../license" rel="copyright">license terms</a><br>
+  Debian is a registered <a href="../trademark">trademark</a> of Software in the Public Interest, Inc.
+</p>
+<!--/UdmComment-->
+</div>
+</div> <!-- end footer -->
+</body>
+</html>
